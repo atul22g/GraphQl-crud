@@ -7,3 +7,5 @@
 ```
 npx prisma migrate dev --name create_user_table
 ```
+
+<!-- https://www.prisma.io/docs/orm/prisma-client/queries/crud#delete -->
