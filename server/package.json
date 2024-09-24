@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
   "dependencies": {
     "@apollo/server": "^4.11.0",
     "@prisma/client": "^5.19.1",
