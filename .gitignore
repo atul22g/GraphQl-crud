@@ -133,3 +133,7 @@ build
 # extra
 database
 *migrations
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
