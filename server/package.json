@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,8 @@
   "dependencies": {
     "@apollo/server": "^4.11.0",
     "@prisma/client": "^5.19.1",
-    "graphql": "^16.9.0"
+    "graphql": "^16.9.0",
+    "tsc-watch": "^6.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.6.1",
