@@ -7,7 +7,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
   // uri: process.env.REACT_APP_BACKEND_URL,
-  uri: "http://localhost:4000",
+  uri: "https://graphql-crud-backend.onrender.com/graphql",
   cache: new InMemoryCache(),
 });
 
